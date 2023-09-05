@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+.left-header {
+  min-width: 35%;
+  max-width: 100%;
+}
+#search-box {
+  border: none;
+  background: transparent;
+  width: 200px;
+}
+.right-header {
+  min-width: 20%;
+}
+.product-title {
+  font-size: smaller;
+  height: 40px;
+  overflow: hidden;
+}
+.section-4 {
+  display: flex;
+  overflow: auto;
+}
+.product-title {
+    font-size: smaller;
+    height: 40px;
+    overflow: hidden;
+}
+.price {
+    font-size: small;
+}
+.btn-card {
+    font-size: 12px;
+    background: rgba(212, 250, 212, 0.185);
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 4px 12px;
+    font-weight: bold;
+    color: green;
+}
+.footer {
+    margin-top: 50px;
+    text-align: center;
+    padding-top: 20px;
+  }
+.fa {
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+}
+.link>ul{
+    list-style-type: none;
+    list-style: none;
+}
+.link>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
